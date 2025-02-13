@@ -2,7 +2,7 @@
 
 @section('content')
     <h2>Task List</h2>
-    <a href="{{ route('tasks.create') }}" class="btn btn-primary mb-3">Create Task</a>
+    <a href="{{ url('/tasks/create') }}" class="btn btn-primary mb-3">Create Task</a>
 
     <table class="table">
         <thead>
